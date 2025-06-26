@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catalyst Analytica - Bioinformatics Analysis</title>
+    <meta name="description" content="Transform your biological data into scientific breakthroughs with cutting-edge bioinformatics solutions.">
+    
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.js"></script>
+    
+    <!-- Custom Styles -->
+    <link rel="stylesheet" href="styles.css">
+    
+    <!-- Tailwind Config -->
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    colors: {
+                        gray: {
+                            750: '#374151',
+                            850: '#1f2937',
+                            950: '#111827'
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-gray-900 text-white">
+    <!-- Header -->
+    <header class="px-4 lg:px-6 h-16 flex items-center border-b border-gray-800 bg-gray-900/95 backdrop-blur sticky top-0 z-50">
+        <a href="#" class="flex items-center justify-center">
+            <img src="https://via.placeholder.com/120x32/3B82F6/FFFFFF?text=Catalyst+Analytica" alt="Catalyst Analytica Logo" class="h-8">
+        </a>
+        <nav class="ml-auto flex gap-4 sm:gap-6">
+            <a href="#services" class="text-sm font-medium hover:text-blue-400 transition-colors text-gray-300">Services</a>
+            <a href="#about" class="text-sm font-medium hover:text-blue-400 transition-colors text-gray-300">About</a>
+            <a href="#contact" class="text-sm font-medium hover:text-blue-400 transition-colors text-gray-300">Contact</a>
+            <button class="px-3 py-1 text-sm bg-blue-600 hover:bg-blue-700 text-white rounded-md transition-colors">
+                Get Started
+            </button>
+        </nav>
+    </header>
+
+    <main class="flex-1">
+        <!-- Hero Section -->
+        <section class="w-full py-12 md:py-24 lg:py-32 bg-gradient-to-br from-gray-900 via-gray-800 to-blue-900">
+            <div class="container px-4 md:px-6 mx-auto max-w-7xl">
+                <div class="flex flex-col items-center space-y-4 text-center">
+                    <span class="px-4 py-1 text-blue-400 border border-blue-400/30 bg-blue-400/10 rounded-full text-sm">
+                        Bioinformatics Excellence
+                    </span>
+                    <div class="space-y-2">
+                        <h1 class="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl lg:text-6xl text-white">
+                            Transform Your Biological Data Into
+                            <span class="text-blue-400"> Scientific Breakthroughs</span>
+                        </h1>
+                        <p class="mx-auto max-w-[700px] text-gray-300 md:text-xl">
+                            Catalyst Analytica empowers life sciences organizations with cutting-edge bioinformatics solutions.
+                            Turn complex genomic, proteomic, and clinical data into actionable insights that accelerate research
+                            and drug discovery.
+                        </p>
+                    </div>
+                    <div class="space-x-4">
+                        <button class="px-6 py-3 bg-blue-600 hover:bg-blue-700 text-white rounded-md transition-colors inline-flex items-center">
+                            Start Your Analytics Journey
+                            <i data-lucide="arrow-right" class="ml-2 h-4 w-4"></i>
+                        </button>
+                        <button class="px-6 py-3 bg-transparent text-white border border-gray-600 hover:bg-gray-800 rounded-md transition-colors">
+                            View Case Studies
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Stats Section -->
+        <section class="w-full py-12 md:py-16 bg-gray-800">
+            <div class="container px-4 md:px-6 mx-auto max-w-7xl">
+                <div class="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
+                    <div class="space-y-2">
+                        <div class="text-3xl font-bold text-blue-400">10M+</div>
+                        <div class="text-sm text-gray-400">Genomes Analyzed</div>
+                    </div>
+                    <div class="space-y-2">
+                        <div class="text-3xl font-bold text-blue-400">500+</div>
+                        <div class="text-sm text-gray-400">Research Projects</div>
+                    </div>
+                    <div class="space-y-2">
+                        <div class="text-3xl font-bold text-blue-400">50PB+</div>
+                        <div class="text-sm text-gray-400">Biological Data Processed</div>
+                    </div>
+                    <div class="space-y-2">
+                        <div class="text-3xl font-bold text-blue-400">24/7</div>
+                        <div class="text-sm text-gray-400">Support Available</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Services Section -->
+        <section id="services" class="w-full py-12 md:py-24 lg:py-32 bg-gray-900">
+            <div class="container px-4 md:px-6 mx-auto max-w-7xl">
+                <div class="text-center mb-12">
+                    <h2 class="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl text-white">
+                        Our Bioinformatics Services
+                    </h2>
+                    <p class="mt-4 text-gray-300 md:text-xl max-w-3xl mx-auto">
+                        Comprehensive bioinformatics solutions tailored to accelerate your life sciences research
+                    </p>
+                </div>
+                <div class="grid gap-6 lg:grid-cols-3 md:grid-cols-2">
+                    <!-- Service Card 1 -->
+                    <div class="border border-gray-700 bg-gray-800 rounded-lg p-6 shadow-lg hover:shadow-xl transition-shadow hover:bg-gray-750">
+                        <div class="w-12 h-12 bg-blue-900/50 rounded-lg flex items-center justify-center mb-4">
+                            <i data-lucide="database" class="h-6 w-6 text-blue-400"></i>
+                        </div>
+                        <h3 class="text-xl font-semibold text-white mb-2">Genomic Data Analysis</h3>
+                        <p class="text-gray-300 mb-4">
+                            Comprehensive analysis of whole genome, exome, and targeted sequencing data with advanced variant
+                            calling and annotation.
+                        </p>
+                        <ul class="space-y-2 text-sm text-gray-300">
+                            <li class="flex items-center">
+                                <i data-lucide="check-circle" class="h-4 w-4 text-green-400 mr-2"></i>
+                                Variant Calling & Annotation
+                            </li>
+                            <li class="flex items-center">
+                                <i data-lucide="check-circle" class="h-4 w-4 text-green-400 mr-2"></i>
+                                Population Genetics Analysis
+                            </li>
+                            <li class="flex items-center">
+                                <i data-lucide="check-circle" class="h-4 w-4 text-green-400 mr-2"></i>
+                                Structural Variant Detection
+                            </li>
+                        </ul>
+                    </div>
+
+                    <!-- Service Card 2 -->
+                    <div class="border border-gray-700 bg-gray-800 rounded-lg p-6 shadow-lg hover:shadow-xl transition-shadow hover:bg-gray-750">
+                        <div class="w-12 h-12 bg-purple-900/50 rounded-lg flex items-center justify-center mb-4">
+                            <i data-lucide="brain" class="h-6 w-6 text-purple-400"></i>
+                        </div>
+                        <h3 class="text-xl font-semibold text-white mb-2">Drug Discovery Analytics</h3>
+                        <p class="text-gray-300 mb-4">
+                            AI-powered drug discovery platforms for target identification, lead optimization, and clinical trial
+                            design.
+                        </p>
+                        <ul class="space-y-2 text-sm text-gray-300">
+                            <li class="flex items-center">
+                                <i data-lucide="check-circle" class="h-4 w-4 text-green-400 mr-2"></i>
+                                Target Identification
+                            </li>
+                            <li class="flex items-center">
+                                <i data-lucide="check-circle" class="h-4 w-4 text-green-400 mr-2"></i>
+                                Molecular Docking
+                            </li>
+                            <li class="flex items-center">
+                                <i data-lucide="check-circle" class="h-4 w-4 text-green-400 mr-2"></i>
+                                ADMET Prediction
+                            </li>
+                        </ul>
+                    </div>
+
+                    <!-- Service Card 3 -->
+                    <div class="border border-gray-700 bg-gray-800 rounded-lg p-6 shadow-lg hover:shadow-xl transition-shadow hover:bg-gray-750">
+                        <div class="w-12 h-12 bg-green-900/50 rounded-lg flex items-center justify-center mb-4">
+                            <i data-lucide="trending-up" class="h-6 w-6 text-green-400"></i>
+                        </div>
+                        <h3 class="text-xl font-semibold text-white mb-2">Proteomics & Metabolomics</h3>
+                        <p class="text-gray-300 mb-4">
+                            Advanced analysis of protein expression, post-translational modifications, and metabolic pathway
+                            analysis.
+                        </p>
+                        <ul class="space-y-2 text-sm text-gray-300">
+                            <li class="flex items-center">
+                                <i data-lucide="check-circle" class="h-4 w-4 text-green-400 mr-2"></i>
+                                Mass Spectrometry Analysis
+                            </li>
+                            <li class="flex items-center">
+                                <i data-lucide="check-circle" class="h-4 w-4 text-green-400 mr-2"></i>
+                                Pathway Enrichment
+                            </li>
+                            <li class="flex items-center">
+                                <i data-lucide="check-circle" class="h-4 w-4 text-green-400 mr-2"></i>
+                                Biomarker Discovery
+                            </li>
+                        </ul>
+                    </div>
+
+                    <!-- Service Card 4 -->
+                    <div class="border border-gray-700 bg-gray-800 rounded-lg p-6 shadow-lg hover:shadow-xl transition-shadow hover:bg-gray-750">
+                        <div class="w-12 h-12 bg-orange-900/50 rounded-lg flex items-center justify-center mb-4">
+                            <i data-lucide="shield" class="h-6 w-6 text-orange-400"></i>
+                        </div>
+                        <h3 class="text-xl font-semibold text-white mb-2">Clinical Data Analysis</h3>
+                        <p class="text-gray-300 mb-4">
+                            Comprehensive analysis of clinical trial data, electronic health records, and regulatory compliance
+                            support.
+                        </p>
+                        <ul class="space-y-2 text-sm text-gray-300">
+                            <li class="flex items-center">
+                                <i data-lucide="check-circle" class="h-4 w-4 text-green-400 mr-2"></i>
+                                Clinical Trial Analytics
+                            </li>
+                            <li class="flex items-center">
+                                <i data-lucide="check-circle" class="h-4 w-4 text-green-400 mr-2"></i>
+                                EHR Data Mining
+                            </li>
+                            <li class="flex items-center">
+                                <i data-lucide="check-circle" class="h-4 w-4 text-green-400 mr-2"></i>
+                                FDA Compliance Support
+                            </li>
+                        </ul>
+                    </div>
+
+                    <!-- Service Card 5 -->
+                    <div class="border border-gray-700 bg-gray-800 rounded-lg p-6 shadow-lg hover:shadow-xl transition-shadow hover:bg-gray-750">
+                        <div class="w-12 h-12 bg-red-900/50 rounded-lg flex items-center justify-center mb-4">
+                            <i data-lucide="zap" class="h-6 w-6 text-red-400"></i>
+                        </div>
+                        <h3 class="text-xl font-semibold text-white mb-2">Phylogenetic Analysis</h3>
+                        <p class="text-gray-300 mb-4">
+                            Evolutionary analysis, species identification, and phylogenetic tree construction for research and
+                            diagnostics.
+                        </p>
+                        <ul class="space-y-2 text-sm text-gray-300">
+                            <li class="flex items-center">
+                                <i data-lucide="check-circle" class="h-4 w-4 text-green-400 mr-2"></i>
+                                Evolutionary Analysis
+                            </li>
+                            <li class="flex items-center">
+                                <i data-lucide="check-circle" class="h-4 w-4 text-green-400 mr-2"></i>
+                                Species Identification
+                            </li>
+                            <li class="flex items-center">
+                                <i data-lucide="check-circle" class="h-4 w-4 text-green-400 mr-2"></i>
+                                Molecular Dating
+                            </li>
+                        </ul>
+                    </div>
+
+                    <!-- Service Card 6 -->
+                    <div class="border border-gray-700 bg-gray-800 rounded-lg p-6 shadow-lg hover:shadow-xl transition-shadow hover:bg-gray-750">
+                        <div class="w-12 h-12 bg-indigo-900/50 rounded-lg flex items-center justify-center mb-4">
+                            <i data-lucide="users" class="h-6 w-6 text-indigo-400"></i>
+                        </div>
+                        <h3 class="text-xl font-semibold text-white mb-2">Bioinformatics Consulting</h3>
+                        <p class="text-gray-300 mb-4">
+                            Expert guidance and custom pipeline development to accelerate your life sciences research and
+                            development.
+                        </p>
+                        <ul class="space-y-2 text-sm text-gray-300">
+                            <li class="flex items-center">
+                                <i data-lucide="check-circle" class="h-4 w-4 text-green-400 mr-2"></i>
+                                Custom Pipeline Development
+                            </li>
+                            <li class="flex items-center">
+                                <i data-lucide="check-circle" class="h-4 w-4 text-green-400 mr-2"></i>
+                                Research Strategy Consulting
+                            </li>
+                            <li class="flex items-center">
+                                <i data-lucide="check-circle" class="h-4 w-4 text-green-400 mr-2"></i>
+                                Bioinformatics Training
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="w-full py-12 md:py-24 lg:py-32 bg-gray-800">
+            <div class="container px-4 md:px-6 mx-auto max-w-7xl">
+                <div class="grid gap-6 lg:grid-cols-[1fr_400px] lg:gap-12 xl:grid-cols-[1fr_600px]">
+                    <div class="flex flex-col justify-center space-y-4">
+                        <div class="space-y-2">
+                            <span class="px-3 py-1 text-blue-400 border border-blue-400/30 bg-blue-400/10 rounded-full text-sm w-fit">
+                                Why Choose Catalyst Analytica
+                            </span>
+                            <h2 class="text-3xl font-bold tracking-tighter sm:text-5xl text-white">
+                                Your Trusted Bioinformatics Partner
+                            </h2>
+                            <p class="max-w-[600px] text-gray-300 md:text-xl">
+                                With over a decade of experience in bioinformatics and computational biology, we've helped hundreds
+                                of life sciences organizations unlock the power of their biological data. Our team of certified
+                                bioinformaticians and computational biologists delivers solutions that accelerate research and drug
+                                discovery.
+                            </p>
+                        </div>
+                        <div class="grid gap-4 md:grid-cols-2">
+                            <div class="flex items-start space-x-3">
+                                <i data-lucide="award" class="h-5 w-5 text-blue-400 mt-1"></i>
+                                <div>
+                                    <h3 class="font-semibold text-white">Life Sciences Expertise</h3>
+                                    <p class="text-sm text-gray-400">
+                                        Deep knowledge across genomics, proteomics, drug discovery, and clinical research.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="flex items-start space-x-3">
+                                <i data-lucide="zap" class="h-5 w-5 text-blue-400 mt-1"></i>
+                                <div>
+                                    <h3 class="font-semibold text-white">Rapid Analysis</h3>
+                                    <p class="text-sm text-gray-400">
+                                        High-performance computing solutions for large-scale biological data analysis.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="flex items-start space-x-3">
+                                <i data-lucide="shield" class="h-5 w-5 text-blue-400 mt-1"></i>
+                                <div>
+                                    <h3 class="font-semibold text-white">Research Compliance</h3>
+                                    <p class="text-sm text-gray-400">
+                                        HIPAA, GxP, and FDA compliance for clinical and pharmaceutical research.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="flex items-start space-x-3">
+                                <i data-lucide="users" class="h-5 w-5 text-blue-400 mt-1"></i>
+                                <div>
+                                    <h3 class="font-semibold text-white">Scientific Support</h3>
+                                    <p class="text-sm text-gray-400">24/7 support from our team of bioinformatics experts.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="flex items-center justify-center">
+                        <div class="grid grid-cols-2 gap-4 w-full max-w-sm">
+                            <div class="p-6 text-center bg-gray-700 border border-gray-600 rounded-lg">
+                                <div class="text-2xl font-bold text-blue-400">10+</div>
+                                <div class="text-sm text-gray-400">Years Experience</div>
+                            </div>
+                            <div class="p-6 text-center bg-gray-700 border border-gray-600 rounded-lg">
+                                <div class="text-2xl font-bold text-blue-400">200+</div>
+                                <div class="text-sm text-gray-400">Happy Clients</div>
+                            </div>
+                            <div class="p-6 text-center bg-gray-700 border border-gray-600 rounded-lg">
+                                <div class="text-2xl font-bold text-blue-400">50+</div>
+                                <div class="text-sm text-gray-400">Team Members</div>
+                            </div>
+                            <div class="p-6 text-center bg-gray-700 border border-gray-600 rounded-lg">
+                                <div class="text-2xl font-bold text-blue-400">99.9%</div>
+                                <div class="text-sm text-gray-400">Uptime SLA</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CTA Section -->
+        <section class="w-full py-12 md:py-24 lg:py-32 bg-gradient-to-r from-blue-600 to-purple-600">
+            <div class="container px-4 md:px-6 mx-auto max-w-7xl">
+                <div class="flex flex-col items-center space-y-4 text-center">
+                    <div class="space-y-2">
+                        <h2 class="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl text-white">
+                            Ready to Accelerate Your Research?
+                        </h2>
+                        <p class="mx-auto max-w-[600px] text-blue-100 md:text-xl">
+                            Let's discuss how Catalyst Analytica can help you unlock the full potential of your biological data.
+                            Get started with a free consultation today.
+                        </p>
+                    </div>
+                    <div class="w-full max-w-sm space-y-2">
+                        <form class="flex gap-2" id="newsletter-form">
+                            <input
+                                type="email"
+                                placeholder="Enter your email"
+                                class="flex-1 px-3 py-2 bg-white/10 border border-white/20 text-white placeholder:text-white/70 rounded-md"
+                                required
+                            />
+                            <button type="submit" class="px-4 py-2 bg-white text-blue-600 hover:bg-white/90 rounded-md transition-colors">
+                                Get Started
+                            </button>
+                        </form>
+                        <p class="text-xs text-blue-100">Free consultation • No commitment required</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="w-full py-12 md:py-24 lg:py-32 bg-gray-900">
+            <div class="container px-4 md:px-6 mx-auto max-w-7xl">
+                <div class="text-center mb-12">
+                    <h2 class="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl text-white">Get In Touch</h2>
+                    <p class="mt-4 text-gray-300 md:text-xl max-w-3xl mx-auto">
+                        Ready to start your bioinformatics journey? Contact our team of computational biology experts today.
+                    </p>
+                </div>
+                <div class="grid gap-6 lg:grid-cols-3">
+                    <div class="text-center p-6 bg-gray-800 border border-gray-700 rounded-lg">
+                        <div class="w-12 h-12 bg-blue-900/50 rounded-lg flex items-center justify-center mx-auto mb-4">
+                            <i data-lucide="mail" class="h-6 w-6 text-blue-400"></i>
+                        </div>
+                        <h3 class="font-semibold mb-2 text-white">Email Us</h3>
+                        <p class="text-gray-400 text-sm mb-4">Get in touch via email for detailed inquiries</p>
+                        <a href="mailto:hello@catalystanalytica.com" class="text-blue-400 hover:underline">
+                            hello@catalystanalytica.com
+                        </a>
+                    </div>
+
+                    <div class="text-center p-6 bg-gray-800 border border-gray-700 rounded-lg">
+                        <div class="w-12 h-12 bg-green-900/50 rounded-lg flex items-center justify-center mx-auto mb-4">
+                            <i data-lucide="phone" class="h-6 w-6 text-green-400"></i>
+                        </div>
+                        <h3 class="font-semibold mb-2 text-white">Call Us</h3>
+                        <p class="text-gray-400 text-sm mb-4">Speak directly with our analytics experts</p>
+                        <a href="tel:+1-555-0123" class="text-blue-400 hover:underline">
+                            +1 (555) 012-3456
+                        </a>
+                    </div>
+
+                    <div class="text-center p-6 bg-gray-800 border border-gray-700 rounded-lg">
+                        <div class="w-12 h-12 bg-purple-900/50 rounded-lg flex items-center justify-center mx-auto mb-4">
+                            <i data-lucide="map-pin" class="h-6 w-6 text-purple-400"></i>
+                        </div>
+                        <h3 class="font-semibold mb-2 text-white">Visit Us</h3>
+                        <p class="text-gray-400 text-sm mb-4">Meet us at our headquarters</p>
+                        <address class="text-blue-400 not-italic">
+                            123 Analytics Ave<br>
+                            Data City, DC 12345
+                        </address>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="flex flex-col gap-2 sm:flex-row py-6 w-full items-center px-4 md:px-6 border-t border-gray-800 bg-gray-900">
+        <p class="text-xs text-gray-400">© 2024 Catalyst Analytica. All rights reserved.</p>
+        <nav class="sm:ml-auto flex gap-4 sm:gap-6">
+            <a href="#" class="text-xs hover:underline underline-offset-4 text-gray-400">Privacy Policy</a>
+            <a href="#" class="text-xs hover:underline underline-offset-4 text-gray-400">Terms of Service</a>
+            <a href="#" class="text-xs hover:underline underline-offset-4 text-gray-400">Cookie Policy</a>
+        </nav>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>

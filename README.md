@@ -1,1 +1,0 @@
-# catalyst-analytica.github.io
