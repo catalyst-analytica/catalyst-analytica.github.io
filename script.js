@@ -1,5 +1,5 @@
 // Import Lucide icons library
-import lucide from "lucide"
+const lucide = window.lucide;
 
 // Import Google Analytics gtag function (if using Google Analytics)
 // window.gtag = function() { /* Your gtag implementation here */ };
