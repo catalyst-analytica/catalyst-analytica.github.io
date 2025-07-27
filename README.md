@@ -1,7 +1,7 @@
 # Catalyst Analytica - Bioinformatics Analysis Website
 
 A modern, responsive website for a bioinformatics analysis company, built with HTML, CSS, and JavaScript for easy deployment on GitHub Pages.
-
+Hosted at: https://catalyst-analytica.github.io/
 ## Features
 
 - **Responsive Design**: Works perfectly on desktop, tablet, and mobile devices
@@ -33,11 +33,6 @@ A modern, responsive website for a bioinformatics analysis company, built with H
 
 ## Customization
 
-### Logo
-Replace the placeholder logo URL in `index.html`:
-\`\`\`html
-<img src="your-logo-url-here" alt="Catalyst Analytica Logo" class="h-8">
-\`\`\`
 
 ### Content
 - Edit the text content directly in `index.html`
